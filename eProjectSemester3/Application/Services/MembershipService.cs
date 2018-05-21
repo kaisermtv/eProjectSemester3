@@ -6,6 +6,7 @@ using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using eProjectSemester3.Application.Constants;
 
 namespace eProjectSemester3.Application.Services
 {
@@ -23,13 +24,15 @@ namespace eProjectSemester3.Application.Services
     public class MembershipService
     {
         public readonly AppDbContext _context;
+        public readonly CacheService _cacheService;
 
         /// <summary>
         /// Constructor
         /// </summary>
-        public MembershipService(AppDbContext context)
+        public MembershipService(AppDbContext context, CacheService cacheService)
         {
             _context = context;
+            _cacheService = cacheService;
         }
         
 
@@ -43,9 +46,9 @@ namespace eProjectSemester3.Application.Services
         {
             username = StringUtils.SafePlainText(username);
 
-            //var cacheKey = string.Concat(CacheKeys.Member.StartsWith, "GetUser-", username, "-", removeTracking);
-            //return _cacheService.CachePerRequest(cacheKey, () =>
-            //{
+            var cacheKey = string.Concat(CacheKeys.Member.StartsWith, "GetUser-", username, "-", removeTracking);
+            return _cacheService.CachePerRequest(cacheKey, () =>
+            {
                 MembershipUser member;
             
                 if (removeTracking)
@@ -63,7 +66,7 @@ namespace eProjectSemester3.Application.Services
                 }
                 
                 return member;
-            //});
+            });
         }
 
         /// <summary>
