@@ -180,12 +180,14 @@
     <Compile Include="Application\Entities\MembershipRole.cs" />
     <Compile Include="Application\Entities\MembershipUser.cs" />
     <Compile Include="Application\Enums\CacheTimes.cs" />
+    <Compile Include="Application\General\LogEntry.cs" />
     <Compile Include="Application\Mapping\MembershipRoleMapping.cs" />
     <Compile Include="Application\Mapping\MembershipUserMapping.cs" />
     <Compile Include="Application\Migrations\Configuration.cs" />
     <Compile Include="Application\Providers\RoleProvider.cs" />
     <Compile Include="Application\ServiceFactory.cs" />
     <Compile Include="Application\Services\CacheService.cs" />
+    <Compile Include="Application\Services\LoggingService.cs" />
     <Compile Include="Application\Services\MembershipService.cs" />
     <Compile Include="Application\UnitOfWork\UnitOfWork.cs" />
     <Compile Include="Application\UnitOfWork\UnitOfWorkManager.cs" />

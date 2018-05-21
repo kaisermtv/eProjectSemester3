@@ -47,7 +47,9 @@ namespace eProjectSemester3
 
             container.RegisterType<UnitOfWorkManager>();
 
-            container.RegisterType<CacheService>();
+            container.RegisterType<CacheService>(); 
+            container.RegisterType<LoggingService>();
+
             container.RegisterType<MembershipService>();
             
 
