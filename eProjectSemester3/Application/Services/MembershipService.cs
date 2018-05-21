@@ -53,6 +53,11 @@ namespace eProjectSemester3.Application.Services
             
                 if (removeTracking)
                 {
+                    //var dbset = _context.MembershipUser;
+
+                    //var iQuery = dbset.Include(x => x.Roles);
+                    //iQuery = iQuery.AsNoTracking();
+                    //member = iQuery.FirstOrDefault(name => name.UserName.Equals(username, StringComparison.CurrentCultureIgnoreCase));
                     member = _context.MembershipUser
                         .Include(x => x.Roles)
                         .AsNoTracking()

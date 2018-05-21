@@ -22,10 +22,12 @@ namespace eProjectSemester3.Controllers
         }
 
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public ActionResult Index()
         {
-            return View();
+            var model = _membershipSevice.GetUser(User.Identity.Name);
+            
+            return View(model);
         }
 
         #region Login & Logout

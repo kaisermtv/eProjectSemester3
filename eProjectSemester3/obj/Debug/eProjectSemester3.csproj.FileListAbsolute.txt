@@ -68,7 +68,6 @@ D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\Microsoft.AI.Dependen
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\Microsoft.AI.WindowsServer.xml
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\Microsoft.AI.Web.xml
-D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\obj\Debug\eProjectSemester3.csprojResolveAssemblyReference.cache
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\obj\Debug\eProjectSemester3.csproj.CoreCompileInputs.cache
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\obj\Debug\eProjectSemester3.csproj.CopyComplete
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\obj\Debug\eProjectSemester3.dll
@@ -89,3 +88,4 @@ D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\AntiXssLibrary.xml
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\HtmlAgilityPack.pdb
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\HtmlAgilityPack.xml
 D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\bin\HtmlSanitizationLibrary.xml
+D:\IT\DoAn\Project\eProjectSemester3\eProjectSemester3\obj\Debug\eProjectSemester3.csprojAssemblyReference.cache
