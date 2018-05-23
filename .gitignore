@@ -1,3 +1,7 @@
 /.vs/eProjectSemester3/DesignTimeBuild
+
 /.vs/*
+
 /.vs/
+/eProjectSemester3/eProjectSemester3/bin/*
+/eProjectSemester3/eProjectSemester3/obj/*
