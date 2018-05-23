@@ -10,7 +10,7 @@ using System.Web.Security;
 
 namespace eProjectSemester3.Controllers
 {
-    public class MembersController : Controller
+    public class MembersController : BaseController
     {
         public readonly MembershipService _membershipSevice;
         public readonly UnitOfWorkManager _unitOfWorkManager;
