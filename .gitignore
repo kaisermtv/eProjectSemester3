@@ -5,3 +5,5 @@
 /.vs/
 /eProjectSemester3/eProjectSemester3/bin/*
 /eProjectSemester3/eProjectSemester3/obj/*
+/eProjectSemester3/obj/Debug
+/eProjectSemester3/bin

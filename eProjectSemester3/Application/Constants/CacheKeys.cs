@@ -11,5 +11,10 @@ namespace eProjectSemester3.Application.Constants
         {
             public const string StartsWith = "Member.";
         }
+
+        public static class News
+        {
+            public const string StartsWith = "News.";
+        }
     }
 }

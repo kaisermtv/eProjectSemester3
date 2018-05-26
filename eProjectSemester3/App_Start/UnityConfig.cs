@@ -51,6 +51,7 @@ namespace eProjectSemester3
             container.RegisterType<LoggingService>();
 
             container.RegisterType<MembershipService>();
+            container.RegisterType<NewsService>();
             
 
         }
